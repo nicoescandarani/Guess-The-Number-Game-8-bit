@@ -147,20 +147,6 @@ button {
     }
     
 }
-
-@media (max-width: 476px) {
-
-    .comp {
-        height: 90px !important;
-    }
-
-    .fire {
-        height: 90px !important;
-        margin-left: 40px;
-    }
-
-}
-
 .nes-input {
     background-color: $white;
     width: 80%;
@@ -182,3 +168,114 @@ button {
 }
 
 .activeBtn { background-color: $sec-button-background; }
+
+@media (max-width: 1024px) {
+
+    h1 {
+        font-size: 18px !important;
+    }
+
+    h3 {
+        font-size: 16px !important;
+    }
+
+    p {
+        font-size: 16px !important;
+    }
+
+    .select {
+        font-size: 14px !important;
+    }
+    
+    button {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 16px !important;
+        margin-bottom: 16px !important;
+    }
+
+    h3 {
+        font-size: 16px !important;
+        margin-bottom: 16px !important;
+    }
+
+    p {
+        font-size: 12px !important;
+    }
+
+    .select {
+        font-size: 12px !important;
+    }
+    
+    button {
+        font-size: 12px;
+    }
+    
+}
+
+@media (max-width: 476px) {
+
+    * {
+        line-height: 20px;
+    }
+
+    h1 {
+        font-size: 12px !important;
+    }
+
+    h3 {
+        font-size: 12px !important;
+    }
+
+    p {
+        font-size: 12px !important;
+    }
+
+    .select {
+        font-size: 10px !important;
+    }
+    
+    button {
+        font-size: 10px;
+    }
+
+    .comp {
+        height: 90px !important;
+    }
+
+    .fire {
+        height: 90px !important;
+        margin-left: 40px;
+    }
+
+}
+
+@media (max-width: 380px) {
+
+    h1 {
+        font-size: 10px !important;
+    }
+
+    h3 {
+        font-size: 10px !important;
+    }
+
+    p {
+        font-size: 8px !important;
+    }
+
+    .select {
+        font-size: 8px !important;
+    }
+    
+    button {
+        font-size: 8px;
+    }
+    
+}

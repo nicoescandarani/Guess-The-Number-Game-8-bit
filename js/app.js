@@ -2,7 +2,7 @@ var computerGuess;
 var userGuessLog = [];
 var attempts = 0;
 var maxGuesses = 10;
-const responcesLow = ['That was too low human.', 'Too low. There is no way you can defeat me human!', 'That number is too low, human.', 'Low number, want to keep trying? You wont defeat me anyways.', 'Lol, that was too low human.', 'Low number, mere human.', 'your number is low, there is no way you can defeat me my sistem.', 'Low number. Do you really want to keep going?', 'LMAO, go on. Keep losing mere human!', 'Your number is too low.'];
+const responcesLow = ['That was too low human.', 'Too low. There is no way you can defeat me human!', 'That number is too low, human.', 'Low number, want to keep trying? You wont defeat me anyways.', 'Lol, that was too low human.', 'Low number, mere human.', 'your number is low, there is no way you can defeat me my sistem.', 'Low number. Do you really want to keep going?', 'LMAO, too low. Go on, keep losing mere human!', 'Your number is too low.'];
 const responcesHigh = ['Too high.', 'Come on human. That number was too high!', 'Yout number is too high. Seriusly want to keep going?', 'That number is high. There is no way you can win this mortal.', 'That number is high. There is no point on keep losing. Is it?', 'High number. I will win, no matter what!', 'Hahahaha, too high.', 'High. There is no point human!', 'Too high. You cant defeat this amazing softawre!', 'Too high. Really wnt to keep going? You just keep loosing!'];
 const responcesWin = ['Nooo!!! You win? But you are a mere human!', 'Nooo, you win? It cannot be!', 'You win? How did you do it?!', 'Nooo, how could you win?', 'You win?! How did you do it? Are you that famous hacker?','Nooo!! How could you?'];
 

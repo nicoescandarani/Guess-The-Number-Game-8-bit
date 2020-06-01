@@ -1,0 +1,17 @@
+{
+  "name": "GuesTheNumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node-sass --watch scss -o css --output-style=expanded",
+    "prod": "node-sass scss -o css --output-style=compact"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nes.css": "^2.3.0",
+    "node-sass": "^4.14.1"
+  }
+}

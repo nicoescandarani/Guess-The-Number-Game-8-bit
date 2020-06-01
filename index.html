@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Guess The Name | Nescanda</title>
+</head>
+<body onload="init()">
+
+    <img src="assets/8bitSnow.gif" alt="Snow" class="snow">
+    
+    <div id="container" class="container">
+
+        <div class="panel">
+            <img src="assets/lightning.gif" alt="Lightning" id="light" class="light">
+            <div class="compContainer">
+                <img src="assets/fire.gif" alt="Fire" id="fire" class="fire">
+                <img src="assets/comp.gif" alt="Evil Computer" id="comp" class="comp">
+            </div>
+            <h1>I generated a random number between 1 - 100.</h1>
+            <h3>Do you dare to guess it and defeat me?</h3>
+            <p class="select">Select your difficulty setting.</p>
+            <button class="" id="easyBtn" onclick="easyMode()">Easy -> Guess in 10 attempts. (Default)</button>
+            <button class="" id="hardBtn" onclick="hardMode()">hard -> Guess in 5 attempts.</button>
+            <button id="newGameBtn" onclick="newGame()">New Game</button>
+
+            <div class="inputWrapper">
+                <h3 id="textOutput">Enter your number below and press enter to attempt!</h3>
+                <input type="number" id="inputBox" class="nes-input with-title" onchange="compareGuess()" autocomplete="off">
+                <p class="title">Number of attempts: <span id="attempts">0</span>.</p>
+            </div>
+        </div>
+        
+        <div class="panel">
+            <p>Your previus guesses:</p>
+            <p id="guessLog"></p>
+        </div>
+        
+    </div>
+    
+<script src="js/app.js"></script>
+
+</body>
+</html>
